@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://zhaodu233.github.io</id>
     <title>ZhaoDu&apos;s Blog</title>
-    <updated>2021-01-28T09:50:37.596Z</updated>
+    <updated>2021-01-28T09:56:45.774Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://zhaodu233.github.io"/>
     <link rel="self" href="https://zhaodu233.github.io/atom.xml"/>
@@ -10,4 +10,18 @@
     <logo>https://zhaodu233.github.io/images/avatar.png</logo>
     <icon>https://zhaodu233.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, ZhaoDu&apos;s Blog</rights>
+    <entry>
+        <title type="html"><![CDATA[呐，先看看这篇如何？]]></title>
+        <id>https://zhaodu233.github.io/post/ne-xian-kan-kan-zhe-pian-ru-he/</id>
+        <link href="https://zhaodu233.github.io/post/ne-xian-kan-kan-zhe-pian-ru-he/">
+        </link>
+        <updated>2021-01-28T09:51:59.000Z</updated>
+        <content type="html"><![CDATA[<p>#这是我第一个Blog，这个网站属于外网，访问慢正常。<br>
+很多东西还用不了，大家自己摸索吧。<br>
+能打开的绝对是真男人。<br>
+对了，你如果收到这条链接，那不错，恭喜你，你将见证这个小博客一步步壮大＆ｄｏｇｅ＆<br>
+最后，这玩意竟然能用ＭａｒｋＤｏｗｎ，震撼我全家！<br>
+（搭建此Ｂｌｏｇ花费我两个小时，希望玩的开心😀</p>
+]]></content>
+    </entry>
 </feed>

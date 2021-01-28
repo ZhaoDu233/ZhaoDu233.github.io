@@ -1,0 +1,165 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>呐，先看看这篇如何？ | ZhaoDu&#39;s Blog</title>
+<link rel="shortcut icon" href="https://zhaodu233.github.io/favicon.ico?v=1611827795658">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
+<link rel="stylesheet" href="https://zhaodu233.github.io/styles/main.css">
+<link rel="alternate" type="application/atom+xml" title="呐，先看看这篇如何？ | ZhaoDu&#39;s Blog - Atom Feed" href="https://zhaodu233.github.io/atom.xml">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
+
+
+
+    <meta name="description" content="#这是我第一个Blog，这个网站属于外网，访问慢正常。
+很多东西还用不了，大家自己摸索吧。
+能打开的绝对是真男人。
+对了，你如果收到这条链接，那不错，恭喜你，你将见证这个小博客一步步壮大＆ｄｏｇｅ＆
+最后，这玩意竟然能用ＭａｒｋＤｏｗｎ，震..." />
+    <meta name="keywords" content="" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+    <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+  </head>
+  <body>
+    <div class="main">
+      <div class="main-content">
+        <div class="site-header">
+  <a href="https://zhaodu233.github.io">
+  <img class="avatar" src="https://zhaodu233.github.io/images/avatar.png?v=1611827795658" alt="">
+  </a>
+  <h1 class="site-title">
+    ZhaoDu&#39;s Blog
+  </h1>
+  <p class="site-description">
+    233333333你能打开这个网站一定等了很久，看会文章吧
+  </p>
+  <div class="menu-container">
+    
+      
+        <a href="/" class="menu">
+          首页
+        </a>
+      
+    
+      
+        <a href="/archives" class="menu">
+          归档
+        </a>
+      
+    
+      
+        <a href="/tags" class="menu">
+          标签
+        </a>
+      
+    
+      
+        <a href="/post/about" class="menu">
+          关于
+        </a>
+      
+    
+  </div>
+  <div class="social-container">
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+</div>
+
+        <div class="post-detail">
+          <article class="post">
+            <h2 class="post-title">
+              呐，先看看这篇如何？
+            </h2>
+            <div class="post-info">
+              <span>
+                2021-01-28
+              </span>
+              <span>
+                1 min read
+              </span>
+              
+            </div>
+            
+            <div class="post-content-wrapper">
+              <div class="post-content">
+                <p>#这是我第一个Blog，这个网站属于外网，访问慢正常。<br>
+很多东西还用不了，大家自己摸索吧。<br>
+能打开的绝对是真男人。<br>
+对了，你如果收到这条链接，那不错，恭喜你，你将见证这个小博客一步步壮大＆ｄｏｇｅ＆<br>
+最后，这玩意竟然能用ＭａｒｋＤｏｗｎ，震撼我全家！<br>
+（搭建此Ｂｌｏｇ花费我两个小时，希望玩的开心😀</p>
+
+              </div>
+              <div class="toc-container">
+                
+              </div>
+            </div>
+          </article>
+        </div>
+
+        
+
+        
+
+        <div class="site-footer">
+  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
+  <a class="rss" href="https://zhaodu233.github.io/atom.xml" target="_blank">
+    <i class="ri-rss-line"></i> RSS
+  </a>
+</div>
+
+      </div>
+    </div>
+
+    <script>
+      hljs.initHighlightingOnLoad()
+
+      let mainNavLinks = document.querySelectorAll(".markdownIt-TOC a");
+
+      // This should probably be throttled.
+      // Especially because it triggers during smooth scrolling.
+      // https://lodash.com/docs/4.17.10#throttle
+      // You could do like...
+      // window.addEventListener("scroll", () => {
+      //    _.throttle(doThatStuff, 100);
+      // });
+      // Only not doing it here to keep this Pen dependency-free.
+
+      window.addEventListener("scroll", event => {
+        let fromTop = window.scrollY;
+
+        mainNavLinks.forEach((link, index) => {
+          let section = document.getElementById(decodeURI(link.hash).substring(1));
+          let nextSection = null
+          if (mainNavLinks[index + 1]) {
+            nextSection = document.getElementById(decodeURI(mainNavLinks[index + 1].hash).substring(1));
+          }
+          if (section.offsetTop <= fromTop) {
+            if (nextSection) {
+              if (nextSection.offsetTop > fromTop) {
+                link.classList.add("current");
+              } else {
+                link.classList.remove("current");    
+              }
+            } else {
+              link.classList.add("current");
+            }
+          } else {
+            link.classList.remove("current");
+          }
+        });
+      });
+
+    </script>
+  </body>
+</html>
